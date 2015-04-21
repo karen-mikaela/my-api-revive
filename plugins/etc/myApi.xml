@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href=""?>
+
+<plugin>
+    <name>myApi</name>
+    <displayName>My Custom Api</displayName>
+    <creationDate>2015-04-21</creationDate>
+    <author>Karen Mikaeka Saavedra Chavez</author>
+    <authorEmail>karen.mikaela@gmail.com</authorEmail>
+    <authorUrl>http://www.karen.mikaela</authorUrl>
+    <license>GNU Gneral Public License v2</license>
+    <description>Plugin that extends API methods.</description>
+    <version>1.0.0</version>
+    <oxversion>3.0.5</oxversion>
+    <type>package</type>
+
+    <install>
+        <files>
+            <file path="{PLUGINPATH}">myApi.readme.txt</file>
+        </files>
+
+        <contents>
+            <group name="myApi">0</group>
+        </contents>
+
+    </install>
+
+</plugin>

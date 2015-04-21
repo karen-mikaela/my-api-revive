@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href=""?>
+
+<plugin>
+    <name>myApi</name>
+    <displayName>My Custom Api</displayName>
+    <creationDate>2015-04-21</creationDate>
+    <author>Karen Mikaeka Saavedra Chavez</author>
+    <authorEmail>karen.mikaela@gmail.com</authorEmail>
+    <authorUrl>http://www.karen.mikaela</authorUrl>
+    <license>GNU Gneral Public License v2</license>
+    <description>Plugin that extends API methods.</description>
+    <version>1.0.0</version>
+    <oxversion>3.0.5</oxversion>
+    <extends>api</extends>
+
+    <install>
+
+        <files>
+          <file path="{MODULEPATH}api/myApi/">myApi.class.php</file>
+          <file path="{MODULEPATH}api/myApi/">pluginsApiMyApiCampaignXmlRpcService.php</file>
+        </files>
+
+    </install>
+
+</plugin>

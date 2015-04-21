@@ -1,0 +1,13 @@
+Added new endpoint to override getCampaignListByAdvertiserId  to accept limit and offset parameters.
+Usage:
+
+getCampaignListByAdvertiserId($sessionId,$campaignId ,$limit,$offset);
+To return $limit records from $offset 
+
+getCampaignListByAdvertiserId($sessionId,$campaignId ,$limit);
+To return only $limit records from 0 
+
+getCampaignListByAdvertiserId($sessionId,$campaignId);
+To return all records .
+
+Added new endpoint to override getCampaign to show full information.
